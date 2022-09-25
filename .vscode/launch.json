@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxWealth",
+            "request": "launch",
+            "mainClass": "MaxWealth",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvenDigit",
+            "request": "launch",
+            "mainClass": "EvenDigit",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinearSearch2D",
+            "request": "launch",
+            "mainClass": "LinearSearch2D",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxinArray",
+            "request": "launch",
+            "mainClass": "MaxinArray",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseNum",
+            "request": "launch",
+            "mainClass": "ReverseNum",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValueSwap",
+            "request": "launch",
+            "mainClass": "ValueSwap",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array2D",
+            "request": "launch",
+            "mainClass": "Array2D",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array1D",
+            "request": "launch",
+            "mainClass": "Array1D",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Roundoff",
+            "request": "launch",
+            "mainClass": "Roundoff",
+            "projectName": "JavaPractice_96985055"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxMin",
+            "request": "launch",
+            "mainClass": "MaxMin",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Calculator<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Case<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Case",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckNumber<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "CheckNumber",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DigitSum<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "DigitSum",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Factorial<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacci<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunctionPractice<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "FunctionPractice",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Largest<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Largest",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Occurance<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Occurance",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PerfectNumber<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "PerfectNumber",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PythagorianTriplet<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "PythagorianTriplet",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Reverse<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseNum<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "ReverseNum",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sum<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sum2<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "Sum2",
+            "projectName": "JavaPractice_f073ba96"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumFirstNatural<JavaPractice_f073ba96>",
+            "request": "launch",
+            "mainClass": "SumFirstNatural",
+            "projectName": "JavaPractice_f073ba96"
+        }
+    ]
+}
