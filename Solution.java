@@ -1,33 +1,27 @@
-import java.util.Arrays;
-
 public class Solution {
     public static void main(String[] args) {
-        int[] array = { 0 };
-        System.out.print((Arrays.toString(plusOne(array))));
+        int[] array = {3, 5};
+        System.out.println(specialArray(array));
     }
-
-    static int[] plusOne(int[] digits) {
-        if (digits.length >= 1 && digits.length <= 100) {
-            for (int i = 0; i < digits.length; i++) {
-                if (digits[i] >= 0 && digits[i] <= 9 ) {
-
-                    if (digits[digits.length - 1] == 9) {
-                        int size = digits.length + 1;
-                        int[] newArray = new int[size];
-                        for (int j = 0; j < digits.length; j++) {
-                            newArray[j] = digits[j];
-                        }
-                        newArray[size - 1] = 0;
-                        newArray[size - 2] = 1;
-                        return newArray;
-                    }
-                     else {
-                        digits[digits.length - 1] = digits[digits.length - 1] + 1;
-                        break;
-                    }
+    static int specialArray(int[] nums) {
+        int count = 0;
+        for(int i = 1; i < greatest(nums); i++) {
+            for(int j = 0; j < nums.length; j++) {
+                if(nums[j] >= i) {
+                    count++;
                 }
             }
         }
-        return digits;
+        return count;
+    }
+
+    static int greatest(int[] arr) {
+        int max = Integer.MAX_VALUE;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
     }
 }

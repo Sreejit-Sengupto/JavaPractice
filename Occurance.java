@@ -18,7 +18,11 @@ public class Occurance
             }
         }
         System.out.println(c);
-        /*int count = 0;
+
+
+        /*Alternate Code 
+        
+        int count = 0;
         int rem = n%10;
         
         if(rem==d)
